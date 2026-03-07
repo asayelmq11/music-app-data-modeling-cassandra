@@ -4,8 +4,6 @@ This project builds an ETL pipeline and data model using Apache Cassandra to ana
 
 ## Project Overview
 
-The pipeline processes event data generated from a music streaming application.
-
 Steps performed:
 
 1. Extract event data from multiple CSV files
@@ -47,5 +45,3 @@ The dataset contains music streaming activity with the following columns:
 Cassandra requires designing tables based on query patterns.
 
 Three tables were created to support specific analytical queries.
-
-Table:
