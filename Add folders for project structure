@@ -1,3 +1,2 @@
-Data/.gitkeep
-Notebooks/.gitkeep
-Images/.gitkeep
+data/event_datafile_new (1).csv
+notebooks/cassandra_etl_pipeline.ipynb
