@@ -1,8 +1,9 @@
-# music-app-data-modeling-cassandra
-Cassandra ETL Pipeline for Music Streaming Data
-This project builds an ETL pipeline and data model using Apache Cassandra to analyze music streaming event data.
+# Music App Data Modeling with Cassandra
 
-## Project Overview
+This project implements an ETL pipeline and data modeling solution using Apache Cassandra to analyze music streaming event data.
+The pipeline extracts raw event logs, transforms them into a clean dataset, and loads them into Cassandra tables optimized for specific analytical queries.
+
+## Project Overview 
 
 Steps performed:
 
@@ -45,3 +46,17 @@ The dataset contains music streaming activity with the following columns:
 Cassandra requires designing tables based on query patterns.
 
 Three tables were created to support specific analytical queries.
+
+## Example Queries
+
+### Query 1
+Retrieve artist name, song title, and song length for:
+sessionId = 338 and itemInSession = 4
+
+### Query 2
+Retrieve artist name, song name (sorted by itemInSession), and user name
+for userId = 10 and sessionId = 182
+
+### Query 3
+Retrieve all users who listened to the song:
+"All Hands Against His Own"
