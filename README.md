@@ -24,6 +24,7 @@ Steps performed:
 ---
 ## Project Structure
 
+```
 music-app-data-modeling-cassandra/
 ├── data/
 │   ├── event_datafile_new.csv
@@ -36,7 +37,7 @@ music-app-data-modeling-cassandra/
 ├── images/
 ├── README.md
 └── requirements.txt
-
+```
 --- 
 
 ## Dataset
