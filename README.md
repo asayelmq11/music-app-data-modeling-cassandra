@@ -27,14 +27,15 @@ Steps performed:
 ```
 music-app-data-modeling-cassandra/
 ├── data/
-│   ├── event_datafile_new.csv
-│   └── event_data/
+│   ├── event_datafile_new.csv        # A cleaned and combined version of all raw event files
+│   └── event_data/                   # Contains the original raw CSV files for each day of events
 │       ├── 2018-11-01-events.csv
 │       ├── 2018-11-02-events.csv
 │       └── …etc
 ├── notebooks/
 │   └── cassandra_etl_pipeline.ipynb
 ├── images/
+│   └── image_event_datafile_new.jpg
 ├── README.md
 └── requirements.txt
 ```
