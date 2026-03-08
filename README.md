@@ -22,6 +22,22 @@ Steps performed:
 - Jupyter Notebook
 
 ---
+## Project Structure
+
+music-app-data-modeling-cassandra/
+├── data/
+│   ├── event_datafile_new.csv
+│   └── event_data/
+│       ├── 2018-11-01-events.csv
+│       ├── 2018-11-02-events.csv
+│       └── …etc
+├── notebooks/
+│   └── cassandra_etl_pipeline.ipynb
+├── images/
+├── README.md
+└── requirements.txt
+
+--- 
 
 ## Dataset
 
